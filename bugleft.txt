@@ -1,0 +1,8 @@
+Mockito:5,22,26,29,38
+Cli:5,8,17,18,27,28,32
+Codec:3,7,17
+Compress:19,27,31
+Jsoup:24,26,40,45,55,61,64,68,77
+JacksonDataBind:24,27,46,49,57,82,96
+JacksonCore:25
+

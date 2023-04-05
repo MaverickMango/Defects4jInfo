@@ -1,0 +1,2272 @@
+{
+  "totalProjs": 5,
+  "totalbugs": 98,
+  "actionBeans": [
+    {
+      "proj": "Chart",
+      "totalbugs": 10,
+      "actionBeans": [
+        {
+          "bugid": 8,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtTypeAccessImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": 175
+            }
+          ]
+        },
+        {
+          "bugid": 9,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": 944
+            }
+          ]
+        },
+        {
+          "bugid": 11,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 12,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtAssignmentImpl|CtBlockImpl",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 145
+            }
+          ]
+        },
+        {
+          "bugid": 13,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtConstructorCallImpl",
+              "destination": "CtInvocationImpl|CtConstructorCallImpl",
+              "position": 455
+            }
+          ]
+        },
+        {
+          "bugid": 14,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 2166
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 2451
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 2293
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 2532
+            }
+          ]
+        },
+        {
+          "bugid": 19,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 698
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 976
+            }
+          ]
+        },
+        {
+          "bugid": 20,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 24,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "destination": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 26,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 1192
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proj": "Math",
+      "totalbugs": 45,
+      "actionBeans": [
+        {
+          "bugid": 3,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 821
+            }
+          ]
+        },
+        {
+          "bugid": 4,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 114
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 118
+            }
+          ]
+        },
+        {
+          "bugid": 8,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtArrayTypeReferenceImpl|CtMethodImpl",
+              "destination": "CtArrayTypeReferenceImpl|CtMethodImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtArrayTypeReferenceImpl|CtLocalVariableImpl",
+              "destination": "CtArrayTypeReferenceImpl|CtLocalVariableImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtLocalVariableImpl",
+              "destination": "CtNewArrayImpl|CtLocalVariableImpl",
+              "position": 187
+            }
+          ]
+        },
+        {
+          "bugid": 11,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "destination": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtInvocationImpl",
+              "destination": "CtBinaryOperatorImpl|CtInvocationImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 15,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtUnaryOperatorImpl",
+              "destination": "CtFieldReadImpl|CtUnaryOperatorImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtBinaryOperatorImpl",
+              "destination": "CtFieldImpl|CtClassImpl",
+              "position": 313
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtFieldReadImpl|CtBinaryOperatorImpl",
+              "position": 1542
+            }
+          ]
+        },
+        {
+          "bugid": 22,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtLiteralImpl|CtReturnImpl",
+              "destination": "CtLiteralImpl|CtReturnImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtLiteralImpl|CtReturnImpl",
+              "destination": "CtLiteralImpl|CtReturnImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 25,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 323
+            }
+          ]
+        },
+        {
+          "bugid": 27,
+          "actions": [
+            {
+              "type": "Move",
+              "origin": "CtTypeAccessImpl|CtThisAccessImpl",
+              "destination": "",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtBinaryOperatorImpl|CtReturnImpl",
+              "position": 597
+            }
+          ]
+        },
+        {
+          "bugid": 28,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 119
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 140
+            }
+          ]
+        },
+        {
+          "bugid": 30,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtTypeReferenceImpl|CtLocalVariableImpl",
+              "destination": "CtTypeReferenceImpl|CtLocalVariableImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 32,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": 136
+            }
+          ]
+        },
+        {
+          "bugid": 33,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "CtFieldReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "destination": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 34,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "CtInvocationImpl|CtInvocationImpl",
+              "position": 209
+            }
+          ]
+        },
+        {
+          "bugid": 35,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtAssignmentImpl|CtBlockImpl",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 65
+            },
+            {
+              "type": "Update",
+              "origin": "CtAssignmentImpl|CtBlockImpl",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 51
+            }
+          ]
+        },
+        {
+          "bugid": 41,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtBinaryOperatorImpl",
+              "destination": "CtVariableReadImpl|CtLocalVariableImpl",
+              "position": 520
+            },
+            {
+              "type": "Update",
+              "origin": "CtLiteralImpl|CtLocalVariableImpl",
+              "destination": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
+              "position": 520
+            }
+          ]
+        },
+        {
+          "bugid": 50,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtIfImpl|CtCaseImpl",
+              "destination": "",
+              "position": 187
+            }
+          ]
+        },
+        {
+          "bugid": 52,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 344
+            }
+          ]
+        },
+        {
+          "bugid": 53,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 153
+            }
+          ]
+        },
+        {
+          "bugid": 56,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtVariableReadImpl|CtAssignmentImpl",
+              "destination": "",
+              "position": 243
+            },
+            {
+              "type": "Delete",
+              "origin": "CtWhileImpl|CtBlockImpl",
+              "destination": "",
+              "position": 238
+            },
+            {
+              "type": "Delete",
+              "origin": "CtUnaryOperatorImpl|CtBlockImpl",
+              "destination": "",
+              "position": 242
+            },
+            {
+              "type": "Update",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "CtBinaryOperatorImpl|CtAssignmentImpl",
+              "position": 237
+            }
+          ]
+        },
+        {
+          "bugid": 57,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtTypeReferenceImpl|CtLocalVariableImpl",
+              "destination": "CtTypeReferenceImpl|CtLocalVariableImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 58,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtConstructorCallImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 121
+            }
+          ]
+        },
+        {
+          "bugid": 59,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtConditionalImpl",
+              "destination": "CtVariableReadImpl|CtConditionalImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 61,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtThrowImpl",
+              "destination": "CtConstructorCallImpl|CtThrowImpl",
+              "position": 94
+            }
+          ]
+        },
+        {
+          "bugid": 62,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "",
+              "position": 161
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 161
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 161
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 161
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtAssignmentImpl",
+              "destination": "CtInvocationImpl|CtAssignmentImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtConditionalImpl",
+              "destination": "CtVariableReadImpl|CtConditionalImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtLiteralImpl|CtInvocationImpl",
+              "destination": "CtBinaryOperatorImpl|CtInvocationImpl",
+              "position": 146
+            }
+          ]
+        },
+        {
+          "bugid": 63,
+          "actions": [
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 417
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 417
+            },
+            {
+              "type": "Move",
+              "origin": "CtTypeAccessImpl|CtInvocationImpl",
+              "destination": "",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtTypeAccessImpl|CtInvocationImpl",
+              "destination": "CtTypeAccessImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": 417
+            }
+          ]
+        },
+        {
+          "bugid": 65,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "",
+              "position": 245
+            },
+            {
+              "type": "Move",
+              "origin": "CtTypeReferenceImpl|CtLocalVariableImpl",
+              "destination": "",
+              "position": 250
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtReturnImpl",
+              "destination": "",
+              "position": 255
+            },
+            {
+              "type": "Move",
+              "origin": "CtMethodImpl|CtClassImpl",
+              "destination": "",
+              "position": 249
+            },
+            {
+              "type": "Move",
+              "origin": "CtFieldReadImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 240
+            },
+            {
+              "type": "Update",
+              "origin": "CtMethodImpl|CtClassImpl",
+              "destination": "CtMethodImpl|CtClassImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtMethodImpl|CtClassImpl",
+              "destination": "CtMethodImpl|CtClassImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableWriteImpl|CtOperatorAssignmentImpl",
+              "destination": "CtVariableWriteImpl|CtOperatorAssignmentImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 68,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtVariableReadImpl|CtReturnImpl",
+              "position": 306
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 254
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 417
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtVariableReadImpl|CtReturnImpl",
+              "position": 428
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 166
+            },
+            {
+              "type": "Update",
+              "origin": "CtConstructorCallImpl|CtReturnImpl",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 248
+            },
+            {
+              "type": "Update",
+              "origin": "CtConstructorCallImpl|CtReturnImpl",
+              "destination": "CtAssignmentImpl|CtBlockImpl",
+              "position": 348
+            }
+          ]
+        },
+        {
+          "bugid": 70,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 71,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtAssignmentImpl|CtBlockImpl",
+              "position": 302
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 300
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtAssignmentImpl|CtBlockImpl",
+              "position": 303
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 301
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtAssignmentImpl|CtBlockImpl",
+              "position": 182
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 180
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 181
+            }
+          ]
+        },
+        {
+          "bugid": 73,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 136
+            }
+          ]
+        },
+        {
+          "bugid": 75,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 77,
+          "actions": [
+            {
+              "type": "Move",
+              "origin": "CtInvocationImpl|CtOperatorAssignmentImpl",
+              "destination": "",
+              "position": 721
+            },
+            {
+              "type": "Update",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "CtAssignmentImpl|CtBlockImpl",
+              "position": 721
+            },
+            {
+              "type": "Delete",
+              "origin": "CtMethodImpl|CtClassImpl",
+              "destination": "",
+              "position": 498
+            }
+          ]
+        },
+        {
+          "bugid": 79,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtTypeReferenceImpl|CtLocalVariableImpl",
+              "destination": "CtTypeReferenceImpl|CtLocalVariableImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtTypeReferenceImpl|CtLocalVariableImpl",
+              "destination": "CtTypeReferenceImpl|CtLocalVariableImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 80,
+          "actions": [
+            {
+              "type": "Move",
+              "origin": "CtLiteralImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 1135
+            },
+            {
+              "type": "Move",
+              "origin": "CtLiteralImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 1135
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 1135
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtLocalVariableImpl",
+              "destination": "CtBinaryOperatorImpl|CtLocalVariableImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 82,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 85,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 88,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "",
+              "position": 336
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtBlockImpl|CtIfImpl",
+              "destination": "CtBlockImpl|CtIfImpl",
+              "position": 336
+            },
+            {
+              "type": "Update",
+              "origin": "CtBlockImpl|CtIfImpl",
+              "destination": "CtInvocationImpl|CtIfImpl",
+              "position": 332
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 329
+            }
+          ]
+        },
+        {
+          "bugid": 89,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 110
+            }
+          ]
+        },
+        {
+          "bugid": 90,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtAnnotationImpl|CtMethodImpl",
+              "destination": "",
+              "position": 108
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtBlockImpl",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtBlockImpl",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtBlockImpl",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtBlockImpl",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtParameterImpl|CtMethodImpl",
+              "destination": "CtMethodImpl|CtClassImpl",
+              "position": 109
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtParameterImpl|CtMethodImpl",
+              "position": 123
+            }
+          ]
+        },
+        {
+          "bugid": 93,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "destination": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 345
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 402
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 379
+            }
+          ]
+        },
+        {
+          "bugid": 94,
+          "actions": [
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 412
+            },
+            {
+              "type": "Move",
+              "origin": "CtLiteralImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 412
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 412
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 96,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 258
+            },
+            {
+              "type": "Delete",
+              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 258
+            },
+            {
+              "type": "Move",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 258
+            },
+            {
+              "type": "Move",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 258
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "destination": "CtFieldReadImpl|CtBinaryOperatorImpl",
+              "position": 258
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "destination": "CtFieldReadImpl|CtBinaryOperatorImpl",
+              "position": 258
+            }
+          ]
+        },
+        {
+          "bugid": 98,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtNewArrayImpl",
+              "destination": "CtVariableReadImpl|CtNewArrayImpl",
+              "position": 991
+            },
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtNewArrayImpl",
+              "destination": "CtVariableReadImpl|CtNewArrayImpl",
+              "position": 779
+            }
+          ]
+        },
+        {
+          "bugid": 99,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtIfImpl|CtBlockImpl",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 542
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 719
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtThrowImpl|CtBlockImpl",
+              "position": 544
+            }
+          ]
+        },
+        {
+          "bugid": 105,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": 264
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proj": "Lang",
+      "totalbugs": 29,
+      "actionBeans": [
+        {
+          "bugid": 6,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 7,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtIfImpl|CtBlockImpl",
+              "destination": "",
+              "position": 452
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 718
+            }
+          ]
+        },
+        {
+          "bugid": 10,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 314
+            },
+            {
+              "type": "Delete",
+              "origin": "CtIfImpl|CtBlockImpl",
+              "destination": "",
+              "position": 307
+            },
+            {
+              "type": "Delete",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "",
+              "position": 304
+            }
+          ]
+        },
+        {
+          "bugid": 13,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtTryImpl|CtBlockImpl",
+              "destination": "",
+              "position": 265
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 255
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 260
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtFieldImpl|CtClassImpl",
+              "position": 239
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 256
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 257
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 259
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 282
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 283
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 262
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 258
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtTryImpl|CtBlockImpl",
+              "position": 276
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 254
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 261
+            },
+            {
+              "type": "Update",
+              "origin": "CtCatchImpl|CtTryImpl",
+              "destination": "CtCatchVariableImpl|CtCatchImpl",
+              "position": 281
+            }
+          ]
+        },
+        {
+          "bugid": 16,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": 458
+            }
+          ]
+        },
+        {
+          "bugid": 18,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 496
+            },
+            {
+              "type": "Update",
+              "origin": "CtLiteralImpl|CtBinaryOperatorImpl",
+              "destination": "CtLiteralImpl|CtBinaryOperatorImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtBlockImpl|CtIfImpl",
+              "destination": "CtBlockImpl|CtIfImpl",
+              "position": 497
+            },
+            {
+              "type": "Update",
+              "origin": "CtBlockImpl|CtIfImpl",
+              "destination": "CtBlockImpl|CtIfImpl",
+              "position": 495
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtAssignmentImpl",
+              "destination": "CtConditionalImpl|CtInvocationImpl",
+              "position": 498
+            }
+          ]
+        },
+        {
+          "bugid": 21,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "CtFieldReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "CtFieldReadImpl|CtInvocationImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 22,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
+              "destination": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
+              "destination": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
+              "position": -1
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 583
+            }
+          ]
+        },
+        {
+          "bugid": 24,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtBinaryOperatorImpl|CtReturnImpl",
+              "position": 1413
+            }
+          ]
+        },
+        {
+          "bugid": 26,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtConstructorCallImpl|CtLocalVariableImpl",
+              "destination": "CtConstructorCallImpl|CtLocalVariableImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 27,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtThrowImpl|CtBlockImpl",
+              "position": 490
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": 479
+            },
+            {
+              "type": "Update",
+              "origin": "CtIfImpl|CtBlockImpl",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 488
+            }
+          ]
+        },
+        {
+          "bugid": 29,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtTypeReferenceImpl|CtMethodImpl",
+              "destination": "CtTypeReferenceImpl|CtMethodImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 33,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtAssignmentImpl",
+              "destination": "CtConditionalImpl|CtAssignmentImpl",
+              "position": 910
+            }
+          ]
+        },
+        {
+          "bugid": 35,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtAssignmentImpl|CtBlockImpl",
+              "destination": "CtThrowImpl|CtBlockImpl",
+              "position": 3295
+            },
+            {
+              "type": "Update",
+              "origin": "CtReturnImpl|CtBlockImpl",
+              "destination": "CtThrowImpl|CtBlockImpl",
+              "position": 3574
+            }
+          ]
+        },
+        {
+          "bugid": 38,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 872
+            }
+          ]
+        },
+        {
+          "bugid": 39,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 3676
+            }
+          ]
+        },
+        {
+          "bugid": 41,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "",
+              "position": 245
+            },
+            {
+              "type": "Delete",
+              "origin": "CtVariableReadImpl|CtReturnImpl",
+              "destination": "",
+              "position": 203
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 194
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 205
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 267
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtBinaryOperatorImpl|CtReturnImpl",
+              "position": 216
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 191
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtWhileImpl|CtBlockImpl",
+              "position": 263
+            },
+            {
+              "type": "Update",
+              "origin": "CtLiteralImpl|CtBinaryOperatorImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": 258
+            }
+          ]
+        },
+        {
+          "bugid": 43,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 422
+            }
+          ]
+        },
+        {
+          "bugid": 44,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 145
+            }
+          ]
+        },
+        {
+          "bugid": 45,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 616
+            }
+          ]
+        },
+        {
+          "bugid": 47,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 1186
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 1233
+            }
+          ]
+        },
+        {
+          "bugid": 50,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtIfImpl|CtBlockImpl",
+              "destination": "",
+              "position": 285
+            },
+            {
+              "type": "Delete",
+              "origin": "CtIfImpl|CtBlockImpl",
+              "destination": "",
+              "position": 465
+            },
+            {
+              "type": "Move",
+              "origin": "CtAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 466
+            },
+            {
+              "type": "Move",
+              "origin": "CtAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 289
+            },
+            {
+              "type": "Move",
+              "origin": "CtIfImpl|CtBlockImpl",
+              "destination": "",
+              "position": 463
+            },
+            {
+              "type": "Move",
+              "origin": "CtIfImpl|CtBlockImpl",
+              "destination": "",
+              "position": 285
+            }
+          ]
+        },
+        {
+          "bugid": 51,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtReturnImpl|CtBlockImpl",
+              "position": 682
+            }
+          ]
+        },
+        {
+          "bugid": 55,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 118
+            }
+          ]
+        },
+        {
+          "bugid": 57,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 58,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 455
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "destination": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtTypeAccessImpl|CtInvocationImpl",
+              "destination": "CtTypeAccessImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "destination": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
+              "position": 454
+            }
+          ]
+        },
+        {
+          "bugid": 59,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 60,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtBinaryOperatorImpl",
+              "destination": "CtFieldReadImpl|CtBinaryOperatorImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtBinaryOperatorImpl",
+              "destination": "CtFieldReadImpl|CtBinaryOperatorImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 63,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 322
+            },
+            {
+              "type": "Delete",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 321
+            },
+            {
+              "type": "Delete",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 319
+            },
+            {
+              "type": "Delete",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 324
+            },
+            {
+              "type": "Delete",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 320
+            },
+            {
+              "type": "Delete",
+              "origin": "CtMethodImpl|CtClassImpl",
+              "destination": "",
+              "position": 432
+            },
+            {
+              "type": "Delete",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 318
+            },
+            {
+              "type": "Delete",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 323
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableWriteImpl|CtOperatorAssignmentImpl",
+              "destination": "",
+              "position": 307
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 314
+            },
+            {
+              "type": "Move",
+              "origin": "CtBinaryOperatorImpl|CtWhileImpl",
+              "destination": "",
+              "position": 305
+            },
+            {
+              "type": "Move",
+              "origin": "CtUnaryOperatorImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 306
+            },
+            {
+              "type": "Move",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 313
+            },
+            {
+              "type": "Move",
+              "origin": "CtInvocationImpl|CtOperatorAssignmentImpl",
+              "destination": "",
+              "position": 307
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 306
+            },
+            {
+              "type": "Move",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 314
+            },
+            {
+              "type": "Move",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 306
+            },
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "CtFieldReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtOperatorAssignmentImpl",
+              "destination": "CtInvocationImpl|CtOperatorAssignmentImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtWhileImpl|CtBlockImpl",
+              "destination": "CtWhileImpl|CtBlockImpl",
+              "position": 305
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proj": "Time",
+      "totalbugs": 9,
+      "actionBeans": [
+        {
+          "bugid": 2,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 227
+            },
+            {
+              "type": "Delete",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "",
+              "position": 218
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 449
+            }
+          ]
+        },
+        {
+          "bugid": 4,
+          "actions": [
+            {
+              "type": "Move",
+              "origin": "CtFieldReadImpl|CtConstructorCallImpl",
+              "destination": "",
+              "position": 464
+            },
+            {
+              "type": "Update",
+              "origin": "CtConstructorCallImpl|CtLocalVariableImpl",
+              "destination": "CtConstructorCallImpl|CtLocalVariableImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 7,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtInvocationImpl",
+              "destination": "CtInvocationImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "CtInvocationImpl|CtInvocationImpl",
+              "position": 708
+            }
+          ]
+        },
+        {
+          "bugid": 11,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtAnonymousExecutableImpl|CtClassImpl",
+              "destination": "",
+              "position": 69
+            },
+            {
+              "type": "Delete",
+              "origin": "CtConstructorCallImpl|CtFieldImpl",
+              "destination": "",
+              "position": 68
+            },
+            {
+              "type": "Move",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 70
+            },
+            {
+              "type": "Move",
+              "origin": "CtAnonymousExecutableImpl|CtClassImpl",
+              "destination": "",
+              "position": 68
+            },
+            {
+              "type": "Move",
+              "origin": "CtFieldImpl|CtClassImpl",
+              "destination": "",
+              "position": 69
+            },
+            {
+              "type": "Update",
+              "origin": "CtFieldImpl|CtClassImpl",
+              "destination": "CtMethodImpl|CtClassImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtFieldImpl|CtClassImpl",
+              "destination": "CtNewClassImpl|CtFieldImpl",
+              "position": 68
+            }
+          ]
+        },
+        {
+          "bugid": 15,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtCaseImpl",
+              "position": 138
+            }
+          ]
+        },
+        {
+          "bugid": 17,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtReturnImpl|CtBlockImpl",
+              "destination": "",
+              "position": 1175
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "destination": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtConditionalImpl",
+              "destination": "CtVariableReadImpl|CtConditionalImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtLocalVariableImpl",
+              "destination": "CtInvocationImpl|CtLocalVariableImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "destination": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtLocalVariableImpl",
+              "destination": "CtInvocationImpl|CtLocalVariableImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtLocalVariableImpl",
+              "destination": "CtInvocationImpl|CtLocalVariableImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtInvocationImpl",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 1168
+            },
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtInvocationImpl",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 1167
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 1178
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 1186
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 1176
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 1179
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 1180
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 1185
+            }
+          ]
+        },
+        {
+          "bugid": 18,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtTryImpl|CtBlockImpl",
+              "position": 364
+            }
+          ]
+        },
+        {
+          "bugid": 19,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 26,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtLocalVariableImpl",
+              "destination": "CtInvocationImpl|CtLocalVariableImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proj": "Chart",
+      "totalbugs": 5,
+      "actionBeans": [
+        {
+          "bugid": 1,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "CtBinaryOperatorImpl|CtIfImpl",
+              "position": -1
+            }
+          ]
+        },
+        {
+          "bugid": 3,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtAssignmentImpl|CtBlockImpl",
+              "position": 1057
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtAssignmentImpl|CtBlockImpl",
+              "position": 1058
+            }
+          ]
+        },
+        {
+          "bugid": 4,
+          "actions": [
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 4493
+            }
+          ]
+        },
+        {
+          "bugid": 5,
+          "actions": [
+            {
+              "type": "Delete",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "destination": "",
+              "position": 548
+            },
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtUnaryOperatorImpl",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 544
+            }
+          ]
+        },
+        {
+          "bugid": 7,
+          "actions": [
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "CtFieldReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "CtFieldReadImpl|CtInvocationImpl",
+              "position": -1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

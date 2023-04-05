@@ -1,0 +1,462 @@
+{
+  "totalProjs": 5,
+  "totalBugs": 98,
+  "operator": [
+    {
+      "key": "Delete",
+      "total": 36
+    },
+    {
+      "key": "Move",
+      "total": 37
+    },
+    {
+      "key": "Update",
+      "total": 134
+    },
+    {
+      "key": "Insert",
+      "total": 84
+    }
+  ],
+  "changedCode": [
+    {
+      "key": "CtFieldReadImpl|CtInvocationImpl",
+      "total": 12
+    },
+    {
+      "key": "CtVariableReadImpl|CtReturnImpl",
+      "total": 2
+    },
+    {
+      "key": "CtReturnImpl|CtBlockImpl",
+      "total": 2
+    },
+    {
+      "key": "CtConstructorCallImpl|CtFieldImpl",
+      "total": 1
+    },
+    {
+      "key": "CtTypeReferenceImpl|CtLocalVariableImpl",
+      "total": 5
+    },
+    {
+      "key": "CtLiteralImpl|CtLocalVariableImpl",
+      "total": 1
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtIfImpl",
+      "total": 15
+    },
+    {
+      "key": "CtConstructorCallImpl|CtLocalVariableImpl",
+      "total": 2
+    },
+    {
+      "key": "CtWhileImpl|CtBlockImpl",
+      "total": 2
+    },
+    {
+      "key": "CtInvocationImpl|CtOperatorAssignmentImpl",
+      "total": 3
+    },
+    {
+      "key": "CtConstructorCallImpl|CtReturnImpl",
+      "total": 2
+    },
+    {
+      "key": "CtFieldImpl|CtClassImpl",
+      "total": 3
+    },
+    {
+      "key": "CtTypeAccessImpl|CtThisAccessImpl",
+      "total": 1
+    },
+    {
+      "key": "CtInvocationImpl|CtInvocationImpl",
+      "total": 1
+    },
+    {
+      "key": "CtLiteralImpl|CtReturnImpl",
+      "total": 2
+    },
+    {
+      "key": "CtTryImpl|CtBlockImpl",
+      "total": 1
+    },
+    {
+      "key": "CtAnonymousExecutableImpl|CtClassImpl",
+      "total": 2
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtInvocationImpl",
+      "total": 3
+    },
+    {
+      "key": "CtAssignmentImpl|CtBlockImpl",
+      "total": 7
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtReturnImpl",
+      "total": 2
+    },
+    {
+      "key": "CtIfImpl|CtCaseImpl",
+      "total": 1
+    },
+    {
+      "key": "CtOperatorAssignmentImpl|CtBlockImpl",
+      "total": 9
+    },
+    {
+      "key": "CtTypeReferenceImpl|CtMethodImpl",
+      "total": 1
+    },
+    {
+      "key": "CtInvocationImpl|CtLocalVariableImpl",
+      "total": 5
+    },
+    {
+      "key": "CtArrayTypeReferenceImpl|CtMethodImpl",
+      "total": 1
+    },
+    {
+      "key": "CtVariableReadImpl|CtBinaryOperatorImpl",
+      "total": 7
+    },
+    {
+      "key": "CtLiteralImpl|CtInvocationImpl",
+      "total": 1
+    },
+    {
+      "key": "CtInvocationImpl|CtBinaryOperatorImpl",
+      "total": 8
+    },
+    {
+      "key": "CtIfImpl|CtBlockImpl",
+      "total": 8
+    },
+    {
+      "key": "CtLocalVariableImpl|CtBlockImpl",
+      "total": 10
+    },
+    {
+      "key": "CtMethodImpl|CtClassImpl",
+      "total": 5
+    },
+    {
+      "key": "CtInvocationImpl|CtThrowImpl",
+      "total": 1
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtLocalVariableImpl",
+      "total": 1
+    },
+    {
+      "key": "CtTypeAccessImpl|CtInvocationImpl",
+      "total": 4
+    },
+    {
+      "key": "CtFieldReadImpl|CtUnaryOperatorImpl",
+      "total": 2
+    },
+    {
+      "key": "CtFieldReadImpl|CtNewArrayImpl",
+      "total": 2
+    },
+    {
+      "key": "CtFieldReadImpl|CtConstructorCallImpl",
+      "total": 1
+    },
+    {
+      "key": "CtVariableReadImpl|CtInvocationImpl",
+      "total": 20
+    },
+    {
+      "key": "CtUnaryOperatorImpl|CtBlockImpl",
+      "total": 1
+    },
+    {
+      "key": "CtInvocationImpl|CtReturnImpl",
+      "total": 11
+    },
+    {
+      "key": "CtVariableWriteImpl|CtOperatorAssignmentImpl",
+      "total": 2
+    },
+    {
+      "key": "CtInvocationImpl|CtIfImpl",
+      "total": 1
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtConstructorCallImpl",
+      "total": 1
+    },
+    {
+      "key": "CtFieldReadImpl|CtBinaryOperatorImpl",
+      "total": 5
+    },
+    {
+      "key": "CtVariableReadImpl|CtConditionalImpl",
+      "total": 3
+    },
+    {
+      "key": "CtArrayTypeReferenceImpl|CtLocalVariableImpl",
+      "total": 1
+    },
+    {
+      "key": "CtVariableReadImpl|CtAssignmentImpl",
+      "total": 1
+    },
+    {
+      "key": "CtInvocationImpl|CtAssignmentImpl",
+      "total": 3
+    },
+    {
+      "key": "CtBlockImpl|CtIfImpl",
+      "total": 4
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
+      "total": 3
+    },
+    {
+      "key": "CtParameterImpl|CtMethodImpl",
+      "total": 1
+    },
+    {
+      "key": "CtLiteralImpl|CtBinaryOperatorImpl",
+      "total": 5
+    },
+    {
+      "key": "CtInvocationImpl|CtBlockImpl",
+      "total": 4
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtWhileImpl",
+      "total": 1
+    },
+    {
+      "key": "CtCatchImpl|CtTryImpl",
+      "total": 1
+    },
+    {
+      "key": "CtUnaryOperatorImpl|CtBinaryOperatorImpl",
+      "total": 1
+    },
+    {
+      "key": "CtAnnotationImpl|CtMethodImpl",
+      "total": 1
+    },
+    {
+      "key": "CtConstructorCallImpl|CtInvocationImpl",
+      "total": 1
+    }
+  ],
+  "fixCode": [
+    {
+      "key": "CtFieldReadImpl|CtInvocationImpl",
+      "total": 6
+    },
+    {
+      "key": "CtVariableReadImpl|CtReturnImpl",
+      "total": 2
+    },
+    {
+      "key": "CtReturnImpl|CtBlockImpl",
+      "total": 1
+    },
+    {
+      "key": "CtConditionalImpl|CtInvocationImpl",
+      "total": 1
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtIfImpl",
+      "total": 16
+    },
+    {
+      "key": "CtTypeReferenceImpl|CtLocalVariableImpl",
+      "total": 4
+    },
+    {
+      "key": "CtConstructorCallImpl|CtLocalVariableImpl",
+      "total": 2
+    },
+    {
+      "key": "CtWhileImpl|CtBlockImpl",
+      "total": 2
+    },
+    {
+      "key": "CtInvocationImpl|CtOperatorAssignmentImpl",
+      "total": 1
+    },
+    {
+      "key": "CtFieldImpl|CtClassImpl",
+      "total": 2
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtAssignmentImpl",
+      "total": 1
+    },
+    {
+      "key": "CtInvocationImpl|CtInvocationImpl",
+      "total": 3
+    },
+    {
+      "key": "CtLiteralImpl|CtReturnImpl",
+      "total": 2
+    },
+    {
+      "key": "CtTryImpl|CtBlockImpl",
+      "total": 2
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtInvocationImpl",
+      "total": 2
+    },
+    {
+      "key": "CtAssignmentImpl|CtBlockImpl",
+      "total": 7
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtReturnImpl",
+      "total": 3
+    },
+    {
+      "key": "CtInvocationImpl|CtConstructorCallImpl",
+      "total": 1
+    },
+    {
+      "key": "CtIfImpl|CtCaseImpl",
+      "total": 1
+    },
+    {
+      "key": "CtTypeReferenceImpl|CtMethodImpl",
+      "total": 1
+    },
+    {
+      "key": "CtConditionalImpl|CtAssignmentImpl",
+      "total": 1
+    },
+    {
+      "key": "CtInvocationImpl|CtLocalVariableImpl",
+      "total": 4
+    },
+    {
+      "key": "CtArrayTypeReferenceImpl|CtMethodImpl",
+      "total": 1
+    },
+    {
+      "key": "CtVariableReadImpl|CtNewArrayImpl",
+      "total": 2
+    },
+    {
+      "key": "CtVariableReadImpl|CtBinaryOperatorImpl",
+      "total": 4
+    },
+    {
+      "key": "CtInvocationImpl|CtBinaryOperatorImpl",
+      "total": 3
+    },
+    {
+      "key": "CtIfImpl|CtBlockImpl",
+      "total": 41
+    },
+    {
+      "key": "CtLocalVariableImpl|CtBlockImpl",
+      "total": 17
+    },
+    {
+      "key": "CtConstructorCallImpl|CtThrowImpl",
+      "total": 1
+    },
+    {
+      "key": "CtMethodImpl|CtClassImpl",
+      "total": 4
+    },
+    {
+      "key": "CtCatchVariableImpl|CtCatchImpl",
+      "total": 1
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtLocalVariableImpl",
+      "total": 1
+    },
+    {
+      "key": "CtFieldReadImpl|CtUnaryOperatorImpl",
+      "total": 1
+    },
+    {
+      "key": "CtTypeAccessImpl|CtInvocationImpl",
+      "total": 2
+    },
+    {
+      "key": "CtNewClassImpl|CtFieldImpl",
+      "total": 1
+    },
+    {
+      "key": "CtVariableReadImpl|CtInvocationImpl",
+      "total": 13
+    },
+    {
+      "key": "CtNewArrayImpl|CtLocalVariableImpl",
+      "total": 1
+    },
+    {
+      "key": "CtThrowImpl|CtBlockImpl",
+      "total": 4
+    },
+    {
+      "key": "CtInvocationImpl|CtReturnImpl",
+      "total": 11
+    },
+    {
+      "key": "CtVariableWriteImpl|CtOperatorAssignmentImpl",
+      "total": 1
+    },
+    {
+      "key": "CtInvocationImpl|CtIfImpl",
+      "total": 1
+    },
+    {
+      "key": "CtFieldReadImpl|CtBinaryOperatorImpl",
+      "total": 5
+    },
+    {
+      "key": "CtVariableReadImpl|CtConditionalImpl",
+      "total": 3
+    },
+    {
+      "key": "CtArrayTypeReferenceImpl|CtLocalVariableImpl",
+      "total": 1
+    },
+    {
+      "key": "CtInvocationImpl|CtAssignmentImpl",
+      "total": 1
+    },
+    {
+      "key": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
+      "total": 4
+    },
+    {
+      "key": "CtBlockImpl|CtIfImpl",
+      "total": 3
+    },
+    {
+      "key": "CtParameterImpl|CtMethodImpl",
+      "total": 1
+    },
+    {
+      "key": "CtLiteralImpl|CtBinaryOperatorImpl",
+      "total": 1
+    },
+    {
+      "key": "CtInvocationImpl|CtBlockImpl",
+      "total": 23
+    },
+    {
+      "key": "CtVariableReadImpl|CtLocalVariableImpl",
+      "total": 1
+    }
+  ]
+}
