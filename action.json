@@ -80,13 +80,13 @@
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
-              "position": 2293
+              "position": 2532
             },
             {
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
-              "position": 2532
+              "position": 2293
             }
           ]
         },
@@ -97,13 +97,13 @@
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
-              "position": 698
+              "position": 976
             },
             {
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
-              "position": 976
+              "position": 698
             }
           ]
         },
@@ -185,14 +185,14 @@
           "actions": [
             {
               "type": "Update",
-              "origin": "CtArrayTypeReferenceImpl|CtMethodImpl",
-              "destination": "CtArrayTypeReferenceImpl|CtMethodImpl",
+              "origin": "CtArrayTypeReferenceImpl|CtLocalVariableImpl",
+              "destination": "CtArrayTypeReferenceImpl|CtLocalVariableImpl",
               "position": -1
             },
             {
               "type": "Update",
-              "origin": "CtArrayTypeReferenceImpl|CtLocalVariableImpl",
-              "destination": "CtArrayTypeReferenceImpl|CtLocalVariableImpl",
+              "origin": "CtArrayTypeReferenceImpl|CtMethodImpl",
+              "destination": "CtArrayTypeReferenceImpl|CtMethodImpl",
               "position": -1
             },
             {
@@ -295,13 +295,13 @@
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
-              "position": 119
+              "position": 140
             },
             {
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
-              "position": 140
+              "position": 119
             }
           ]
         },
@@ -332,14 +332,14 @@
           "actions": [
             {
               "type": "Update",
-              "origin": "CtFieldReadImpl|CtInvocationImpl",
-              "destination": "CtFieldReadImpl|CtInvocationImpl",
+              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "destination": "CtInvocationImpl|CtBinaryOperatorImpl",
               "position": -1
             },
             {
               "type": "Update",
-              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
-              "destination": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "origin": "CtFieldReadImpl|CtInvocationImpl",
+              "destination": "CtFieldReadImpl|CtInvocationImpl",
               "position": -1
             }
           ]
@@ -362,13 +362,13 @@
               "type": "Update",
               "origin": "CtAssignmentImpl|CtBlockImpl",
               "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 65
+              "position": 51
             },
             {
               "type": "Update",
               "origin": "CtAssignmentImpl|CtBlockImpl",
               "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 51
+              "position": 65
             }
           ]
         },
@@ -378,13 +378,13 @@
             {
               "type": "Update",
               "origin": "CtFieldReadImpl|CtBinaryOperatorImpl",
-              "destination": "CtVariableReadImpl|CtLocalVariableImpl",
+              "destination": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
               "position": 520
             },
             {
               "type": "Update",
               "origin": "CtLiteralImpl|CtLocalVariableImpl",
-              "destination": "CtBinaryOperatorImpl|CtBinaryOperatorImpl",
+              "destination": "CtVariableReadImpl|CtLocalVariableImpl",
               "position": 520
             }
           ]
@@ -542,6 +542,12 @@
             },
             {
               "type": "Update",
+              "origin": "CtInvocationImpl|CtAssignmentImpl",
+              "destination": "CtInvocationImpl|CtAssignmentImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
               "origin": "CtVariableReadImpl|CtInvocationImpl",
               "destination": "CtVariableReadImpl|CtInvocationImpl",
               "position": -1
@@ -556,12 +562,6 @@
               "type": "Update",
               "origin": "CtLocalVariableImpl|CtBlockImpl",
               "destination": "CtLocalVariableImpl|CtBlockImpl",
-              "position": -1
-            },
-            {
-              "type": "Update",
-              "origin": "CtInvocationImpl|CtAssignmentImpl",
-              "destination": "CtInvocationImpl|CtAssignmentImpl",
               "position": -1
             },
             {
@@ -589,21 +589,21 @@
           "actions": [
             {
               "type": "Move",
-              "origin": "CtVariableReadImpl|CtInvocationImpl",
-              "destination": "",
-              "position": 417
-            },
-            {
-              "type": "Move",
-              "origin": "CtVariableReadImpl|CtInvocationImpl",
-              "destination": "",
-              "position": 417
-            },
-            {
-              "type": "Move",
               "origin": "CtTypeAccessImpl|CtInvocationImpl",
               "destination": "",
               "position": -1
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 417
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
+              "position": 417
             },
             {
               "type": "Update",
@@ -630,21 +630,9 @@
             },
             {
               "type": "Move",
-              "origin": "CtTypeReferenceImpl|CtLocalVariableImpl",
-              "destination": "",
-              "position": 250
-            },
-            {
-              "type": "Move",
               "origin": "CtVariableReadImpl|CtReturnImpl",
               "destination": "",
               "position": 255
-            },
-            {
-              "type": "Move",
-              "origin": "CtMethodImpl|CtClassImpl",
-              "destination": "",
-              "position": 249
             },
             {
               "type": "Move",
@@ -653,10 +641,10 @@
               "position": 240
             },
             {
-              "type": "Update",
+              "type": "Move",
               "origin": "CtMethodImpl|CtClassImpl",
-              "destination": "CtMethodImpl|CtClassImpl",
-              "position": -1
+              "destination": "",
+              "position": 249
             },
             {
               "type": "Update",
@@ -672,8 +660,8 @@
             },
             {
               "type": "Update",
-              "origin": "CtLocalVariableImpl|CtBlockImpl",
-              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "origin": "CtMethodImpl|CtClassImpl",
+              "destination": "CtMethodImpl|CtClassImpl",
               "position": -1
             }
           ]
@@ -684,14 +672,8 @@
             {
               "type": "Insert",
               "origin": "",
-              "destination": "CtVariableReadImpl|CtReturnImpl",
-              "position": 306
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtLocalVariableImpl|CtBlockImpl",
-              "position": 254
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 166
             },
             {
               "type": "Insert",
@@ -702,26 +684,32 @@
             {
               "type": "Insert",
               "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 254
+            },
+            {
+              "type": "Insert",
+              "origin": "",
               "destination": "CtVariableReadImpl|CtReturnImpl",
               "position": 428
             },
             {
               "type": "Insert",
               "origin": "",
-              "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 166
-            },
-            {
-              "type": "Update",
-              "origin": "CtConstructorCallImpl|CtReturnImpl",
-              "destination": "CtLocalVariableImpl|CtBlockImpl",
-              "position": 248
+              "destination": "CtVariableReadImpl|CtReturnImpl",
+              "position": 306
             },
             {
               "type": "Update",
               "origin": "CtConstructorCallImpl|CtReturnImpl",
               "destination": "CtAssignmentImpl|CtBlockImpl",
               "position": 348
+            },
+            {
+              "type": "Update",
+              "origin": "CtConstructorCallImpl|CtReturnImpl",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 248
             }
           ]
         },
@@ -749,6 +737,12 @@
               "type": "Insert",
               "origin": "",
               "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 301
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
               "position": 300
             },
             {
@@ -760,12 +754,6 @@
             {
               "type": "Insert",
               "origin": "",
-              "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 301
-            },
-            {
-              "type": "Insert",
-              "origin": "",
               "destination": "CtAssignmentImpl|CtBlockImpl",
               "position": 182
             },
@@ -773,13 +761,13 @@
               "type": "Insert",
               "origin": "",
               "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 180
+              "position": 181
             },
             {
               "type": "Insert",
               "origin": "",
               "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 181
+              "position": 180
             }
           ]
         },
@@ -901,7 +889,7 @@
           "actions": [
             {
               "type": "Delete",
-              "origin": "CtBinaryOperatorImpl|CtIfImpl",
+              "origin": "CtBlockImpl|CtIfImpl",
               "destination": "",
               "position": 336
             },
@@ -919,7 +907,7 @@
             },
             {
               "type": "Update",
-              "origin": "CtBlockImpl|CtIfImpl",
+              "origin": "CtBinaryOperatorImpl|CtIfImpl",
               "destination": "CtBlockImpl|CtIfImpl",
               "position": 336
             },
@@ -1041,13 +1029,13 @@
             },
             {
               "type": "Move",
-              "origin": "CtLiteralImpl|CtBinaryOperatorImpl",
+              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
               "destination": "",
               "position": 412
             },
             {
               "type": "Move",
-              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "origin": "CtLiteralImpl|CtBinaryOperatorImpl",
               "destination": "",
               "position": 412
             },
@@ -1121,12 +1109,6 @@
           "bugid": 99,
           "actions": [
             {
-              "type": "Update",
-              "origin": "CtIfImpl|CtBlockImpl",
-              "destination": "CtIfImpl|CtBlockImpl",
-              "position": 542
-            },
-            {
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
@@ -1137,6 +1119,12 @@
               "origin": "",
               "destination": "CtThrowImpl|CtBlockImpl",
               "position": 544
+            },
+            {
+              "type": "Update",
+              "origin": "CtIfImpl|CtBlockImpl",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 542
             }
           ]
         },
@@ -1196,15 +1184,15 @@
             },
             {
               "type": "Delete",
-              "origin": "CtIfImpl|CtBlockImpl",
-              "destination": "",
-              "position": 307
-            },
-            {
-              "type": "Delete",
               "origin": "CtLocalVariableImpl|CtBlockImpl",
               "destination": "",
               "position": 304
+            },
+            {
+              "type": "Delete",
+              "origin": "CtIfImpl|CtBlockImpl",
+              "destination": "",
+              "position": 307
             }
           ]
         },
@@ -1216,66 +1204,6 @@
               "origin": "CtTryImpl|CtBlockImpl",
               "destination": "",
               "position": 265
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 255
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 260
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtFieldImpl|CtClassImpl",
-              "position": 239
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 256
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 257
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 259
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtLocalVariableImpl|CtBlockImpl",
-              "position": 282
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtIfImpl|CtBlockImpl",
-              "position": 283
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 262
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtInvocationImpl|CtBlockImpl",
-              "position": 258
             },
             {
               "type": "Insert",
@@ -1293,7 +1221,67 @@
               "type": "Insert",
               "origin": "",
               "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 259
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 260
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 256
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 282
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
               "position": 261
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtFieldImpl|CtClassImpl",
+              "position": 239
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 255
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 258
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 262
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtInvocationImpl|CtBlockImpl",
+              "position": 257
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 283
             },
             {
               "type": "Update",
@@ -1339,17 +1327,17 @@
               "type": "Update",
               "origin": "CtBlockImpl|CtIfImpl",
               "destination": "CtBlockImpl|CtIfImpl",
-              "position": 497
+              "position": 495
             },
             {
               "type": "Update",
               "origin": "CtBlockImpl|CtIfImpl",
               "destination": "CtBlockImpl|CtIfImpl",
-              "position": 495
+              "position": 497
             },
             {
               "type": "Update",
-              "origin": "CtInvocationImpl|CtAssignmentImpl",
+              "origin": "CtVariableWriteImpl|CtAssignmentImpl",
               "destination": "CtConditionalImpl|CtInvocationImpl",
               "position": 498
             }
@@ -1467,15 +1455,15 @@
           "actions": [
             {
               "type": "Update",
-              "origin": "CtAssignmentImpl|CtBlockImpl",
-              "destination": "CtThrowImpl|CtBlockImpl",
-              "position": 3295
-            },
-            {
-              "type": "Update",
               "origin": "CtReturnImpl|CtBlockImpl",
               "destination": "CtThrowImpl|CtBlockImpl",
               "position": 3574
+            },
+            {
+              "type": "Update",
+              "origin": "CtAssignmentImpl|CtBlockImpl",
+              "destination": "CtThrowImpl|CtBlockImpl",
+              "position": 3295
             }
           ]
         },
@@ -1506,15 +1494,33 @@
           "actions": [
             {
               "type": "Delete",
+              "origin": "CtVariableReadImpl|CtReturnImpl",
+              "destination": "",
+              "position": 203
+            },
+            {
+              "type": "Delete",
               "origin": "CtBinaryOperatorImpl|CtIfImpl",
               "destination": "",
               "position": 245
             },
             {
-              "type": "Delete",
-              "origin": "CtVariableReadImpl|CtReturnImpl",
-              "destination": "",
-              "position": 203
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtBinaryOperatorImpl|CtReturnImpl",
+              "position": 216
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtWhileImpl|CtBlockImpl",
+              "position": 263
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 191
             },
             {
               "type": "Insert",
@@ -1526,31 +1532,13 @@
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
-              "position": 205
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtIfImpl|CtBlockImpl",
               "position": 267
             },
             {
               "type": "Insert",
               "origin": "",
-              "destination": "CtBinaryOperatorImpl|CtReturnImpl",
-              "position": 216
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtLocalVariableImpl|CtBlockImpl",
-              "position": 191
-            },
-            {
-              "type": "Insert",
-              "origin": "",
-              "destination": "CtWhileImpl|CtBlockImpl",
-              "position": 263
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 205
             },
             {
               "type": "Update",
@@ -1600,13 +1588,13 @@
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
-              "position": 1186
+              "position": 1233
             },
             {
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
-              "position": 1233
+              "position": 1186
             }
           ]
         },
@@ -1617,19 +1605,19 @@
               "type": "Delete",
               "origin": "CtIfImpl|CtBlockImpl",
               "destination": "",
-              "position": 285
+              "position": 465
             },
             {
               "type": "Delete",
               "origin": "CtIfImpl|CtBlockImpl",
               "destination": "",
-              "position": 465
+              "position": 285
             },
             {
               "type": "Move",
-              "origin": "CtAssignmentImpl|CtBlockImpl",
+              "origin": "CtIfImpl|CtBlockImpl",
               "destination": "",
-              "position": 466
+              "position": 285
             },
             {
               "type": "Move",
@@ -1639,15 +1627,15 @@
             },
             {
               "type": "Move",
-              "origin": "CtIfImpl|CtBlockImpl",
+              "origin": "CtAssignmentImpl|CtBlockImpl",
               "destination": "",
-              "position": 463
+              "position": 466
             },
             {
               "type": "Move",
               "origin": "CtIfImpl|CtBlockImpl",
               "destination": "",
-              "position": 285
+              "position": 463
             }
           ]
         },
@@ -1695,14 +1683,14 @@
             },
             {
               "type": "Update",
-              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
-              "destination": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "origin": "CtTypeAccessImpl|CtInvocationImpl",
+              "destination": "CtTypeAccessImpl|CtInvocationImpl",
               "position": -1
             },
             {
               "type": "Update",
-              "origin": "CtTypeAccessImpl|CtInvocationImpl",
-              "destination": "CtTypeAccessImpl|CtInvocationImpl",
+              "origin": "CtInvocationImpl|CtBinaryOperatorImpl",
+              "destination": "CtInvocationImpl|CtBinaryOperatorImpl",
               "position": -1
             },
             {
@@ -1748,13 +1736,37 @@
               "type": "Delete",
               "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
               "destination": "",
-              "position": 322
+              "position": 323
+            },
+            {
+              "type": "Delete",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 318
+            },
+            {
+              "type": "Delete",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 320
             },
             {
               "type": "Delete",
               "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
               "destination": "",
               "position": 321
+            },
+            {
+              "type": "Delete",
+              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
+              "destination": "",
+              "position": 322
+            },
+            {
+              "type": "Delete",
+              "origin": "CtMethodImpl|CtClassImpl",
+              "destination": "",
+              "position": 432
             },
             {
               "type": "Delete",
@@ -1769,52 +1781,10 @@
               "position": 324
             },
             {
-              "type": "Delete",
-              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
-              "destination": "",
-              "position": 320
-            },
-            {
-              "type": "Delete",
-              "origin": "CtMethodImpl|CtClassImpl",
-              "destination": "",
-              "position": 432
-            },
-            {
-              "type": "Delete",
-              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
-              "destination": "",
-              "position": 318
-            },
-            {
-              "type": "Delete",
-              "origin": "CtOperatorAssignmentImpl|CtBlockImpl",
-              "destination": "",
-              "position": 323
-            },
-            {
               "type": "Move",
               "origin": "CtVariableWriteImpl|CtOperatorAssignmentImpl",
               "destination": "",
               "position": 307
-            },
-            {
-              "type": "Move",
-              "origin": "CtVariableReadImpl|CtInvocationImpl",
-              "destination": "",
-              "position": 314
-            },
-            {
-              "type": "Move",
-              "origin": "CtBinaryOperatorImpl|CtWhileImpl",
-              "destination": "",
-              "position": 305
-            },
-            {
-              "type": "Move",
-              "origin": "CtUnaryOperatorImpl|CtBinaryOperatorImpl",
-              "destination": "",
-              "position": 306
             },
             {
               "type": "Move",
@@ -1824,12 +1794,6 @@
             },
             {
               "type": "Move",
-              "origin": "CtInvocationImpl|CtOperatorAssignmentImpl",
-              "destination": "",
-              "position": 307
-            },
-            {
-              "type": "Move",
               "origin": "CtVariableReadImpl|CtInvocationImpl",
               "destination": "",
               "position": 306
@@ -1838,13 +1802,37 @@
               "type": "Move",
               "origin": "CtFieldReadImpl|CtInvocationImpl",
               "destination": "",
+              "position": 306
+            },
+            {
+              "type": "Move",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "",
               "position": 314
+            },
+            {
+              "type": "Move",
+              "origin": "CtInvocationImpl|CtOperatorAssignmentImpl",
+              "destination": "",
+              "position": 307
+            },
+            {
+              "type": "Move",
+              "origin": "CtUnaryOperatorImpl|CtBinaryOperatorImpl",
+              "destination": "",
+              "position": 306
+            },
+            {
+              "type": "Move",
+              "origin": "CtBinaryOperatorImpl|CtWhileImpl",
+              "destination": "",
+              "position": 305
             },
             {
               "type": "Move",
               "origin": "CtFieldReadImpl|CtInvocationImpl",
               "destination": "",
-              "position": 306
+              "position": 314
             },
             {
               "type": "Update",
@@ -1946,7 +1934,7 @@
             },
             {
               "type": "Delete",
-              "origin": "CtConstructorCallImpl|CtFieldImpl",
+              "origin": "CtFieldImpl|CtClassImpl",
               "destination": "",
               "position": 68
             },
@@ -1976,7 +1964,7 @@
             },
             {
               "type": "Update",
-              "origin": "CtFieldImpl|CtClassImpl",
+              "origin": "CtConstructorCallImpl|CtFieldImpl",
               "destination": "CtNewClassImpl|CtFieldImpl",
               "position": 68
             }
@@ -2004,8 +1992,8 @@
             },
             {
               "type": "Update",
-              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
-              "destination": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "origin": "CtLocalVariableImpl|CtBlockImpl",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
               "position": -1
             },
             {
@@ -2016,20 +2004,8 @@
             },
             {
               "type": "Update",
-              "origin": "CtInvocationImpl|CtLocalVariableImpl",
-              "destination": "CtInvocationImpl|CtLocalVariableImpl",
-              "position": -1
-            },
-            {
-              "type": "Update",
-              "origin": "CtVariableReadImpl|CtInvocationImpl",
-              "destination": "CtVariableReadImpl|CtInvocationImpl",
-              "position": -1
-            },
-            {
-              "type": "Update",
-              "origin": "CtLocalVariableImpl|CtBlockImpl",
-              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "origin": "CtVariableReadImpl|CtBinaryOperatorImpl",
+              "destination": "CtVariableReadImpl|CtBinaryOperatorImpl",
               "position": -1
             },
             {
@@ -2046,20 +2022,26 @@
             },
             {
               "type": "Update",
-              "origin": "CtInvocationImpl|CtLocalVariableImpl",
-              "destination": "CtInvocationImpl|CtLocalVariableImpl",
-              "position": -1
-            },
-            {
-              "type": "Update",
-              "origin": "CtInvocationImpl|CtLocalVariableImpl",
-              "destination": "CtInvocationImpl|CtLocalVariableImpl",
-              "position": -1
-            },
-            {
-              "type": "Update",
               "origin": "CtLocalVariableImpl|CtBlockImpl",
               "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtVariableReadImpl|CtInvocationImpl",
+              "destination": "CtVariableReadImpl|CtInvocationImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtLocalVariableImpl",
+              "destination": "CtInvocationImpl|CtLocalVariableImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtLocalVariableImpl",
+              "destination": "CtInvocationImpl|CtLocalVariableImpl",
               "position": -1
             },
             {
@@ -2070,9 +2052,9 @@
             },
             {
               "type": "Update",
-              "origin": "CtBinaryOperatorImpl|CtInvocationImpl",
-              "destination": "CtLocalVariableImpl|CtBlockImpl",
-              "position": 1168
+              "origin": "CtInvocationImpl|CtLocalVariableImpl",
+              "destination": "CtInvocationImpl|CtLocalVariableImpl",
+              "position": -1
             },
             {
               "type": "Update",
@@ -2081,16 +2063,28 @@
               "position": 1167
             },
             {
-              "type": "Insert",
-              "origin": "",
+              "type": "Update",
+              "origin": "CtBinaryOperatorImpl|CtInvocationImpl",
               "destination": "CtLocalVariableImpl|CtBlockImpl",
-              "position": 1178
+              "position": 1168
             },
             {
               "type": "Insert",
               "origin": "",
               "destination": "CtIfImpl|CtBlockImpl",
               "position": 1186
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtIfImpl|CtBlockImpl",
+              "position": 1180
+            },
+            {
+              "type": "Insert",
+              "origin": "",
+              "destination": "CtLocalVariableImpl|CtBlockImpl",
+              "position": 1185
             },
             {
               "type": "Insert",
@@ -2107,14 +2101,8 @@
             {
               "type": "Insert",
               "origin": "",
-              "destination": "CtIfImpl|CtBlockImpl",
-              "position": 1180
-            },
-            {
-              "type": "Insert",
-              "origin": "",
               "destination": "CtLocalVariableImpl|CtBlockImpl",
-              "position": 1185
+              "position": 1178
             }
           ]
         },
@@ -2151,26 +2139,26 @@
             },
             {
               "type": "Update",
-              "origin": "CtInvocationImpl|CtReturnImpl",
-              "destination": "CtInvocationImpl|CtReturnImpl",
-              "position": -1
-            },
-            {
-              "type": "Update",
-              "origin": "CtInvocationImpl|CtReturnImpl",
-              "destination": "CtInvocationImpl|CtReturnImpl",
-              "position": -1
-            },
-            {
-              "type": "Update",
-              "origin": "CtInvocationImpl|CtReturnImpl",
-              "destination": "CtInvocationImpl|CtReturnImpl",
-              "position": -1
-            },
-            {
-              "type": "Update",
               "origin": "CtInvocationImpl|CtLocalVariableImpl",
               "destination": "CtInvocationImpl|CtLocalVariableImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
+              "position": -1
+            },
+            {
+              "type": "Update",
+              "origin": "CtInvocationImpl|CtReturnImpl",
+              "destination": "CtInvocationImpl|CtReturnImpl",
               "position": -1
             },
             {

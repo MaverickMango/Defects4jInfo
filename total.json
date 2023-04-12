@@ -8,11 +8,11 @@
     },
     {
       "key": "Move",
-      "total": 37
+      "total": 36
     },
     {
       "key": "Update",
-      "total": 134
+      "total": 133
     },
     {
       "key": "Insert",
@@ -38,7 +38,7 @@
     },
     {
       "key": "CtTypeReferenceImpl|CtLocalVariableImpl",
-      "total": 5
+      "total": 4
     },
     {
       "key": "CtLiteralImpl|CtLocalVariableImpl",
@@ -138,7 +138,7 @@
     },
     {
       "key": "CtLocalVariableImpl|CtBlockImpl",
-      "total": 10
+      "total": 9
     },
     {
       "key": "CtMethodImpl|CtClassImpl",
@@ -210,7 +210,7 @@
     },
     {
       "key": "CtInvocationImpl|CtAssignmentImpl",
-      "total": 3
+      "total": 2
     },
     {
       "key": "CtBlockImpl|CtIfImpl",
@@ -238,6 +238,10 @@
     },
     {
       "key": "CtCatchImpl|CtTryImpl",
+      "total": 1
+    },
+    {
+      "key": "CtVariableWriteImpl|CtAssignmentImpl",
       "total": 1
     },
     {
@@ -364,7 +368,7 @@
     },
     {
       "key": "CtLocalVariableImpl|CtBlockImpl",
-      "total": 17
+      "total": 16
     },
     {
       "key": "CtConstructorCallImpl|CtThrowImpl",
